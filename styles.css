@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero-section {
+    background: url(download.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.section {
+    padding: 3rem 1rem;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+section .centered{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.courses, .team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-member p{
+    padding-bottom: 1.4rem;
+}
+
+.course, .team-member {
+    flex: 1;
+    margin: 0 1rem;
+    text-align: center;
+    border: 1px solid rgb(100, 94, 94);
+    border-radius: 5%;
+    height: 280px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.team-member{
+    padding-bottom: 2.4rem;
+}
+.courses .course p{
+    padding-bottom: 1.4rem;
+}
+
+.course h3, .team-member h5 {
+    margin-bottom: 1rem;
+}
+
+.team-member img {
+    width: 45%;
+    border-radius: 50%;
+}
+
+.item {
+    min-width: 50%;
+    text-align: center;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+.bg-lights{
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    border-radius: 1rem;
+    max-width: 60%;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input, .form-group textarea {
+    width: 50%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: rgb(211, 207, 207);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(170, 163, 163);
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+  
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .courses, .team {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course, .team-member {
+        margin: 1rem 0;
+    }
+
+    .course, .team-member{
+        width: 300px;
+        padding: 1rem;
+        padding-bottom: 1.8rem;
+    }
+}

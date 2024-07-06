@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a class="navbar-brand" href="#">WebDev Academy</a>
+            <button class="navbar-toggler" id="navbar-toggler">&#9776;</button>
+            <div class="navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <h1>Welcome to WebDev Academy</h1>
+            <p>Master the skills to build modern, responsive websites</p>
+            <a href="#courses" class="btn">Explore Courses</a>
+        </div>
+    </header>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Courses</h2>
+            <div class="courses">
+                <div class="course">
+                    <h3>HTML</h3>
+                    <p>Learn the essentials of HTML to create and structure your own web pages. Perfect for beginners, this course provides hands-on experience and practical examples to kickstart your web development journey.</p>
+                    <a class="btn" href="#">Learn more.</a>
+                </div>
+                <div class="course">
+                    <h3>CSS</h3>
+                    <p>Transform your web pages with CSS. Learn to design and style websites, creating visually appealing and responsive layouts. Perfect for beginners looking to enhance their web design skills.</p>
+                    <br>
+                    <a class="btn" href="#">Learn more.</a>
+                </div>
+                <div class="course">
+                    <h3>JavaScript</h3>
+                    <p>Unlock the power of JavaScript to add interactivity to your websites. This course covers fundamental concepts and practical applications, perfect for beginners ready to elevate their web development skills.</p>
+                    <a class="btn" href="#">Learn more.</a>
+                </div>
+                <div class="course">
+                    <h3>SQL</h3>
+                    <p>Discover the power of SQL for managing and querying databases. Learn essential skills to organize, retrieve, and manipulate data, ideal for beginners aiming to excel in database management and data analysis.</p>
+                    <a class="btn" href="#">Learn more.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <p class="centered">Our mission is to provide top-notch web development education to aspiring developers worldwide.</p>
+            <div class="team">
+                <div class="team-member">
+                    <img src="profile.jpeg" alt="John Doe">
+                    <h5>John Doe</h5>
+                    <p>Lead Instructor</p>
+                    <a href="#" class="btn">LinkedIn</a>
+                </div>
+                <div class="team-member">
+                    <img src="profile.jpeg" alt="Jane Smith">
+                    <h5>Jane Smith</h5>
+                    <p>Co-Instructor</p>
+                    <a href="#" class="btn">LinkedIn</a>
+                </div>
+                <div class="team-member">
+                    <img src="profile.jpeg" alt="Mike Johnson">
+                    <h5>Mike Johnson</h5>
+                    <p>Assistant Instructor</p>
+                    <a href="#" class="btn">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2 class="section-title">What Our Students Say</h2>
+            <div class="item">
+                <p>"WebDev Academy helped me land my first job as a web developer!"</p>
+                <h5>Student 1</h5>
+            </div>
+            <div class="item">
+                <p>"The courses are well-structured and easy to follow."</p>
+                <h5>Student 2</h5>
+            </div>
+            <div class="item">
+                <p>"I highly recommend WebDev Academy to anyone looking to learn web development."</p>
+                <h5>Student 3</h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <center>
+        <section id="contact" class="section bg-lights">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </center>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2024 WebDev Academy. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a> |
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
